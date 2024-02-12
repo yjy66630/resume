@@ -9,7 +9,7 @@
 % use xifthen
 \RequirePackage{xifthen}
 % use fontawesome
-\RequirePackage{fontawesome}
+\RequirePackage{fontawesome5}
 % use xcolor for customizing color
 \RequirePackage[usenames,dvipsnames]{xcolor}
 % loading fonts
@@ -118,6 +118,7 @@
 \newcommand*{\locationSymbol}{\faMapMarker*}
 \newcommand*{\phoneSymbol}{\faPhone}
 \newcommand*{\universitySymbol}{\faUniversity}
+\newcommand*{\weixinSymbol}{\faIcon{weixin}}
 
 % Render a text with its icon
 % Usage: \icontext{<icon>}{<label>}
@@ -153,6 +154,8 @@
 \newcommand*{\degree}[1]{\icontext{\degreeSymbol}{#1}}
 % University
 \newcommand*{\university}[1]{\icontext{\universitySymbol}{#1}}
+% wechat
+\newcommand*{\wechat}[1]{\icontext{\weixinSymbol}{#1}}
 
 % GitHub: \github{<username>}
 \newcommand*{\github}[1]{%
