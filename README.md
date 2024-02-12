@@ -1,5 +1,8 @@
 My Resume and LaTeX Template
 ============================
+
+![image](https://github.com/yjy66630/resume/assets/62711034/d270e4cb-a751-4cad-b683-b61e541b65bd)
+
 resume.cls为内部格式设置
 
 fontawesome.sty包含所有emoji字体
